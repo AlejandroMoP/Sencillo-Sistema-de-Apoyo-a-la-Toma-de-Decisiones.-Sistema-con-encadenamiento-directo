@@ -1,4 +1,5 @@
-function out = Pertenencia(enc,alt,sprint,act)
+function out = Pertenencia(enc,alt,sprint,act) %enc:n° entero cuantas veces encesto, alt:entero en centimietros altura, 
+%sprint:segundos en los que corrió, act:arreglo de las activaciones
 x1 = 0:0.1:25;
 x2 = 0:1:230;
 x3 = 0:0.1:30;

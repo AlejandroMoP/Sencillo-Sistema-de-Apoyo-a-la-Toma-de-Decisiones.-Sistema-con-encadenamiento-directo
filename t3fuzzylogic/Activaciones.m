@@ -1,4 +1,5 @@
-function out = Activaciones(enc,alt,sprint)
+function out = Activaciones(enc,alt,sprint)%enc:n° entero cuantas veces encesto, alt:entero en centimietros altura, 
+%sprint:segundos en los que corrió
 z = zeros(1,3);
 
 if enc >= 12

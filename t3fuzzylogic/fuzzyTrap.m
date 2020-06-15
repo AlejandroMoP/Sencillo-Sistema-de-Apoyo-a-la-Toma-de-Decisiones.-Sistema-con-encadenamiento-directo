@@ -1,4 +1,4 @@
-function alpha = fuzzyTrap(x,p)
+function alpha = fuzzyTrap(x,p)%x numero y p arreglo de las coordenadas del trapecio
 [n,m] = size(x);
 if n>1 && m >1
     error('Las matrices no son soportadas por esta funcion, cambie x')

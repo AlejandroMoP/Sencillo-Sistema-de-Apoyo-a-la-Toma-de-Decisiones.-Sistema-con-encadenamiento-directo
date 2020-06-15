@@ -1,5 +1,5 @@
-function y = fuzymemb(n,CD,nombre)% n numero y CD conjunto difuso
-%x = -1:0.005:1; %length 401
+function y = fuzymemb(n,CD,nombre)
+% n numero, CD conjunto difuso, nombre es el nombre de la caracteristica a analizar
 x1 = 0:0.1:25;
 x2 = 0:1:230;
 x3 = 0:0.1:30;
